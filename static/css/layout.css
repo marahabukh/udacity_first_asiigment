@@ -1,0 +1,115 @@
+
+
+a {
+  margin-left: 40px;
+
+
+
+
+}
+
+.divv {
+  margin: 30px;
+  border: none;
+  border-style: solid;
+  border-color: rgb(237, 237, 241);
+  height: 300px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+
+}
+
+.divv h1 {
+  padding-left: 30px;
+  color: grey;
+}
+
+.divv blockquote {
+  width: 250px;
+  padding-left: 30px;
+  font-family: "Montserrat", serif;
+
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.maindiv {
+
+  display: grid;
+  grid-template-columns: 450px 450px;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  ;
+  justify-content: center;
+
+
+}
+
+footer {
+  background-color: #2C2C54;
+  color: white;
+  justify-items: center;
+
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#link {
+  color: white;
+
+}
+
+.image {
+  width: 450px;
+  height: 300px;
+
+}
+
+.divv button {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Montserrat", serif;
+
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+button a {
+  font-weight: bold;
+}
+
+@media(max-width:900px) {
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(max-width:457px) {
+  .maindiv img {
+    width: 100%;
+  }
+}
+
+@media(min-width:457px) {
+  .maindiv img {
+    width: 100%;
+  }
+}
+
+

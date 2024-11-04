@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  justify-items: flex-start;
+  padding-top: 20px;
+  color: white;
+  background-color: #2C2C54;
+  height: 40px;
+  list-style: none;
+
+
+
+
+}
