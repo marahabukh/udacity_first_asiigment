@@ -1,6 +1,6 @@
 
 .phooto{
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
 }
@@ -32,6 +32,7 @@
 
 .authar{
   font-weight: bold;
+  color:red ;
 
 }
 
@@ -43,29 +44,23 @@
 }
 .containers{
 padding-right:5px;
-width:50%;
+width:100%;
 
 }
-.social_media  a{
+.social_media {
 
- 
+ display: grid;
+
+ grid-template-rows:1fr ;
+ grid-template-columns: 105px 104px 120px;
   text-decoration: none;
 
 
 }
-@media(max-width:1024px){
-  .post{
-    width:100%;
+@media (max-width: 1024px) {
+  .phooto {
+    width: 100%;
   }
-  .containers{
-
-    width:100%;
-    
-    }
-    .phooto{
-      width: 100%;
-      
-    }
     
 
 }
